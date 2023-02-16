@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Your Machine Learning App</title>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400" rel="stylesheet" type='text/css' />
+	    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <link rel="stylesheet" href="css/all.min.css" />
+        <link rel="stylesheet" href="css/templatemo-style.css" />
+    
+   </head>
+    
+    <body>
+        <form name="form", method="POST", style="text-align: center;">
+            <br>
+            ML: <input type="number" name="ML", placeholder="Enter ML" required/>
+            <br><br>
+            List_Duration: <input type="number" name="List_Duration", placeholder="Enter List_Duration" required/>
+            <br><br>
+            Bedrooms: <input type="number" name="Bedrooms", placeholder="Enter Bedrooms" required/>
+            <br><br>
+            Bathrooms: <input type="number" name="Bathrooms", placeholder="Enter weiBathrooms" required/>
+            <br><br>
+            Area: <input type="number" name="Area", placeholder="Enter Area in cm" required/>
+            <br><br>
+            Age: <input type="number" name="Age", placeholder="Enter Age" required/>
+            <br><br>
+            Frontage: <input type="number" name="Frontage", placeholder="Enter Frontage" required/>
+            <br><br>
+            Kitchens: <input type="number" name="Kitchens", placeholder="Enter Kitchens" required/>
+            <br><br>
+            City: <input type="number" name="City", placeholder="Enter City" required/>
+            <br><br>
+            ifPendemic: <input type="number" name="ifPendemic", placeholder="Enter ifPendemic" required/>
+            <br><br>
+            ifAdditionalTax:<input type="number" name="ifAdditionalTax", placeholder="Enter ifAdditionalTax" required/>
+            <br><br>
+            <button value="Submit">Run</button>
+        </form>
+        <p style="text-align: center;">{{ output }}</p>
+    </body>
+</html>
